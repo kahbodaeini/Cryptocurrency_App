@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="day2View" type="id" />
+    <item name="day1View" type="id" />
+    <item name="backButtonCoinWeekLayout" type="id" />
+    <item name="day3View" type="id" />
+    <item name="day4View" type="id" />
+    <item name="day5View" type="id" />
+    <item name="day6View" type="id" />
+    <item name="day7View" type="id" />
+    <item name="highPriceDay1Week" type="id" />
+    <item name="lowPriceDay1Week" type="id" />
+    <item name="openPriceDay1Week" type="id" />
+    <item name="closePriceDay1Week" type="id" />
+    <item name="highPriceDay2Week" type="id" />
+    <item name="lowPriceDay2Week" type="id" />
+    <item name="openPriceDay2Week" type="id" />
+    <item name="closePriceDay2Week" type="id" />
+    <item name="highPriceDay3Week" type="id" />
+    <item name="openPriceDay3Week" type="id" />
+    <item name="lowPriceDay3Week" type="id" />
+    <item name="highPriceDay4Week" type="id" />
+    <item name="closePriceDay3Week" type="id" />
+    <item name="openPriceDay4Week" type="id" />
+    <item name="lowPriceDay4Week" type="id" />
+    <item name="highPriceDay5Week" type="id" />
+    <item name="closePriceDay4Week" type="id" />
+    <item name="openPriceDay5Week" type="id" />
+    <item name="lowPriceDay5Week" type="id" />
+    <item name="highPriceDay6Week" type="id" />
+    <item name="closePriceDay5Week" type="id" />
+    <item name="closePriceDay7Week" type="id" />
+    <item name="lowPriceDay6Week" type="id" />
+    <item name="openPriceDay6Week" type="id" />
+    <item name="closePriceDay6Week" type="id" />
+    <item name="highPriceDay7Week" type="id" />
+    <item name="lowPriceDay7Week" type="id" />
+    <item name="openPriceDay7Week" type="id" />
+</resources>

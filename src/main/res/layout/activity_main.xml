@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/coinPriceFluctuation"
+        android:layout_width="374dp"
+        android:layout_height="212dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="96dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Coin price fluctuations for a :"
+        android:textColorHint="#EA0D0D"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/weekButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coinNameView" />
+
+    <TextView
+        android:id="@+id/coinNameView"
+        android:layout_width="186dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginRight="113dp"
+        android:layout_marginBottom="78dp"
+        android:text="Coin Name"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/coinPriceFluctuation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/backButtonSecPage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/weekButton"
+        android:layout_width="138dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="168dp"
+        android:onClick="weekButtonClicked"
+        android:text="Week"
+        android:textSize="24sp"
+        app:backgroundTint="#7A1818"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/monthButton"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/monthButton"
+        android:layout_width="138dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="168dp"
+        android:onClick="monthButtonClicked"
+        android:text="Month"
+        android:textSize="24sp"
+        app:backgroundTint="#7A1818"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/weekButton"
+        app:layout_constraintTop_toBottomOf="@+id/coinPriceFluctuation"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/backButtonSecPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="91dp"
+        android:text="Back"
+        app:backgroundTint="#4CAF50"
+        app:layout_constraintBottom_toTopOf="@+id/coinPriceFluctuation"
+        app:layout_constraintEnd_toStartOf="@+id/coinNameView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
